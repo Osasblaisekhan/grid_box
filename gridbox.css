@@ -1,0 +1,13 @@
+.grid_box{
+    height: 50vh;
+    width: 40vh;
+    background-color: hotpink;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+}
+.grid_box > *{
+    height: 80px;
+    width: 80px;
+    background-color: brown;
+}
